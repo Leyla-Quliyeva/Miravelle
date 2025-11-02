@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+.title-22 {
+  font-size: 22px;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.brend-name {
+  font-size: 90px;
+  color: palevioletred;
+  transition: color 1s ease;
+  transition: transform 1s ease;
+}
+.scale:hover {
+  transform: scale(1.1);
+  color: turquoise;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item a {
+  font-size: 20px;
+}
+.nav-item .nav-link {
+  font-size: 22px;
+}
+.nav-item .nav-link:hover {
+  color: #df97a2 !important;
+}
+#banner-one {
+  background-image: url(/assets/images/background-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner-one h1 {
+  font-size: 65px;
+  padding-top: 155px;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.font-cormorant {
+  font-family: "Cormorant Upright", serif;
+}
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+.banner-two h1 {
+  color: #636161;
+  text-align: center;
+  font-size: 55px;
+}
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  flex-wrap: wrap;
+  margin: 75px 0 0 -100px;
+  gap: 35px;
+}
+.team-img {
+  margin-right: -75px;
+}
+.team-img img {
+  width: 300px;
+  height: 350px;
+}
+.team-img p:nth-child(4) {
+  color: rgb(202, 56, 104);
+}
+#banner-11 {
+  margin-top: 50rem;
+}

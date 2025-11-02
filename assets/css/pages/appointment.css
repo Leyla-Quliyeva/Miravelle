@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+.title-22 {
+  font-size: 22px;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.brend-name {
+  font-size: 90px;
+  color: palevioletred;
+  transition: color 1s ease;
+  transition: transform 1s ease;
+}
+.scale:hover {
+  transform: scale(1.1);
+  color: turquoise;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item .nav-link:hover {
+  color: #df97a2 !important;
+}
+#banner-one {
+  background-image: url(/assets/images/background-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner-one h1 {
+  font-size: 65px;
+  padding-top: 155px;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.font-cormorant {
+  font-family: "Cormorant Upright", serif;
+}
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+#banner-two {
+  background-color: #fafafa;
+  height: 150vh !important;
+}
+.banner-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+}
+.banner-two .box-left img {
+  width: 40rem;
+  height: 580px;
+  margin-left: -100px;
+}
+.banner-two h2 {
+  font-size: 40px;
+}
+.banner-two p {
+  font-size: 22px;
+  color: #5f5e5e;
+}
+.box-right {
+  margin: 0 -10px 20px;
+  padding-left: 55px;
+}
+.banner-two .form-input input {
+  width: 280px;
+  height: 60px;
+}
+.banner-two .form-element {
+  padding: 0 10px 0 20px;
+  border: 1px solid #bebcbc;
+  margin-top: 25px;
+  outline: none;
+}
+.banner-two .form-input textarea {
+  width: 575px;
+  height: 120px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.banner-two button {
+  width: 575px;
+  height: 70px;
+  background-color: #d66b7b;
+  color: white;
+  transition: background-color 0.5s ease;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.banner-two button:hover {
+  background-color: rgb(202, 56, 104);
+}
+#banner-six .post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post-img {
+  min-width: 245px;
+  overflow: hidden;
+}
+.border-radius {
+  border-radius: 50%;
+}
+.border {
+  width: 40px;
+  height: 40px;
+}
+.post-img a {
+  top: 10px;
+  right: 10px;
+  line-height: 45px;
+  color: black;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.post-img a:nth-child(2) {
+  top: 10px;
+  right: 10px;
+  transition-delay: 0.2s;
+}
+.post-img a:nth-child(3) {
+  top: 60px;
+  right: 10px;
+  transition-delay: 0.4s;
+}
+.post-img:hover a {
+  opacity: 1;
+  transform: translateX(0);
+}
+.post-img:hover a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.post-img:hover a:nth-child(3) {
+  transition-delay: 0.4s;
+}
+.banner-six p {
+  font-size: 55px;
+}
+.me-100 {
+  margin-left: -100px;
+}
+#banner-six .post .post-img img {
+  width: 245px;
+  height: 285px;
+}
+#banner-six .post .post-img .text {
+  display: flex;
+  column-gap: 70px;
+  color: #525252;
+  font-weight: 600;
+}
+#banner-nine {
+  margin-top: 150px;
+}

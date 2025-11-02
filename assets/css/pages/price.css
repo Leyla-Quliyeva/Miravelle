@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+.title-22 {
+  font-size: 22px;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.brend-name {
+  font-size: 90px;
+  color: palevioletred;
+  transition: color 1s ease;
+  transition: transform 1s ease;
+}
+.scale:hover {
+  transform: scale(1.1);
+  color: turquoise;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item .nav-link:hover {
+  color: #df97a2 !important;
+}
+#banner-one {
+  background-image: url(/assets/images/background-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner-one h1 {
+  font-size: 65px;
+  padding-top: 155px;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.font-cormorant {
+  font-family: "Cormorant Upright", serif;
+}
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+#banner-2 {
+  background-color: #fafafa;
+  height: 210vh;
+}
+.banner-2 h1 {
+  text-align: center;
+  padding-top: 170px;
+  color: #3b3b3b;
+  font-size: 55px;
+  font-weight: 300;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -100px;
+  gap: 25px;
+  padding-top: 45px;
+}
+.boxes .box {
+  width: 550px;
+  height: 830px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  border: 1px solid #df97a2;
+}
+#box2 {
+  background-color: #df97a2;
+}
+#box3 {
+  margin-right: -100px;
+}
+.box .text1 {
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.8px;
+}
+.box h3 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 75px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+}
+.color-gray {
+  color: #525045;
+}
+.box span {
+  font-size: 18px;
+  margin-left: -15px;
+}
+.box .lorem {
+  width: 85%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 19px;
+  margin-left: 40px;
+}
+.center-hr {
+  width: 80%;
+  margin: 20px auto;
+  height: 1px;
+  background: #333;
+  margin-top: 55px;
+}
+#box2 {
+  color: white;
+}
+.tick {
+  padding: 5px;
+}
+.price-tick {
+  color: #df97a2;
+  padding: 5px;
+}
+.price-option {
+  text-align: center;
+  padding-top: 35px;
+  margin-top: 30px;
+}
+.price-option :nth-child(1) {
+  font-weight: 300;
+}
+.price-option p {
+  letter-spacing: 0.9px;
+}
+.color-858482 {
+  color: #858482;
+  font-size: 18px;
+}
+.text2 {
+  font-size: 18px;
+}
+.box .btn {
+  width: 160px;
+  height: 60px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  margin-left: 130px;
+}
+.box .btn-white {
+  background-color: #fafafa;
+  color: black;
+  border: 1px solid #fafafa;
+}
+.box .btn-white:hover {
+  background-color: #fafafa;
+  color: black;
+}
+.box .btn-pink {
+  background-color: #df97a2;
+  color: white;
+  border: 1px solid #df97a2;
+}
+.box .btn-pink:hover {
+  background-color: palevioletred;
+  color: white;
+}
+#box1 .btn {
+  margin-top: 130px;
+}
+#box2 .btn {
+  margin-top: 80px;
+}
+#box3 .btn {
+  margin-top: 50px;
+}
