@@ -141,13 +141,12 @@
   align-items: center;
 }
 .form a {
-  display: flex; 
+  display: flex;
   align-items: center;
   text-decoration: none;
 }
 .form .user {
-    margin-right: 25px;
-
+  margin-right: 25px;
   color: #d66b7b;
 }
 #banner-two i {

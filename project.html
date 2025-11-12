@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miravelle</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    /> -->
+
     <link rel="icon" href="./assets/images/sparkles-svgrepo-com.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -119,11 +128,7 @@
                       >Gallery</a
                     >
                   </li>
-                  <li>
-                    <a class="dropdown-item title-20" href="#"
-                      >Single-Product</a
-                    >
-                  </li>
+                  
                   <li>
                     <a class="dropdown-item title-20" href="#">Wishlist</a>
                   </li>
@@ -146,10 +151,14 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item title-20" href="#">Services</a>
+                    <a
+                      class="dropdown-item title-20"
+                      href="./assets/html/services.html"
+                      >Services</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="#"
+                    <a class="dropdown-item title-20" href="./assets/html/services-details.html"
                       >Services-Details</a
                     >
                   </li>
@@ -739,8 +748,11 @@
             VIEW ALL
           </button>
         </div>
-        <div class="post mt-50 gap-25 me-100">
-          <div class="post-img p-relative">
+        <div
+          id="dot-carousel"
+          class="post mt-50 gap-25 me-100 owl-carousel owl-theme"
+        >
+          <div class="item post-img p-relative">
             <img class="cursor" src="./assets/images/post1.jpg" alt="post1" />
             <a class="p-absolute bg-white center border-radius border" href="#"
               ><i class="fa-regular fa-heart title-20 center bg-white"></i
@@ -755,7 +767,8 @@
               <span class="font-cormorant">$95.00</span>
             </div>
           </div>
-          <div class="post-img p-relative">
+
+          <div class="item post-img p-relative">
             <img class="cursor" src="./assets/images/item-7.jpg" alt="post2" />
             <a class="p-absolute bg-white center border-radius border" href="#"
               ><i class="fa-regular fa-heart title-20 center bg-white"></i
@@ -770,7 +783,8 @@
               <span class="font-cormorant">$95.00</span>
             </div>
           </div>
-          <div class="post-img p-relative">
+
+          <div class="item post-img p-relative">
             <img class="cursor" src="./assets/images/post3.jpg" alt="post3" />
             <a class="p-absolute bg-white center border-radius border" href="#"
               ><i class="fa-regular fa-heart title-20 center bg-white"></i
@@ -785,7 +799,8 @@
               <span class="font-cormorant">$95.00</span>
             </div>
           </div>
-          <div class="post-img p-relative">
+
+          <div class="item post-img p-relative">
             <img class="cursor" src="./assets/images/post4.jpg" alt="post4" />
             <a class="p-absolute bg-white center border-radius border" href="#"
               ><i class="fa-regular fa-heart title-20 center bg-white"></i
@@ -800,7 +815,8 @@
               <span class="font-cormorant">$95.00</span>
             </div>
           </div>
-          <div class="post-img p-relative">
+
+          <div class="item post-img p-relative">
             <img class="cursor" src="./assets/images/post5.jpg" alt="post5" />
             <a class="p-absolute bg-white center border-radius border" href="#"
               ><i class="fa-regular fa-heart title-20 center bg-white"></i
@@ -815,32 +831,50 @@
               <span class="font-cormorant">$95.00</span>
             </div>
           </div>
-          <!-- <div class="post-img p-relative">
-             <img class="cursor" src="./assets/images/post6.jpg" alt="post6">
-             <a class="p-absolute bg-white  center border-radius border"  href="#"
-              ><i class="fa-regular fa-heart title-20 center bg-white"></i
-            ></a>
-            <a class="p-absolute bg-white  center border-radius border"  href="#"
-              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
-            ></a>
-             <div class="text title-21 mt-15">
-              <p class="font-cormorant hover-pink transition-color cursor">Gel Nail Polish</p>
-              <span class="font-cormorant">$95.00</span>
+
+          <!-- <div class="item post-img p-relative l">
+              <img class="cursor" src="./assets/images/post6.jpg" alt="post6" />
+              <a
+                class="p-absolute bg-white center border-radius border"
+                href="#"
+                ><i class="fa-regular fa-heart title-20 center bg-white"></i
+              ></a>
+              <a
+                class="p-absolute bg-white center border-radius border"
+                href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping title-20 center bg-white"
+                ></i
+              ></a>
+              <div class="text title-21 mt-15">
+                <p class="font-cormorant hover-pink transition-color cursor">
+                  Gel Nail Polish
+                </p>
+                <span class="font-cormorant">$95.00</span>
+              </div>
             </div>
-          </div>
-          <div class="post-img p-relative">
-             <img class="cursor"  src="./assets/images/post7.jpg" alt="post7">
-             <a class="p-absolute bg-white  center border-radius border"  href="#"
-              ><i class="fa-regular fa-heart title-20 center bg-white"></i
-            ></a>
-            <a class="p-absolute bg-white  center border-radius border"  href="#"
-              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
-            ></a>
-             <div class="text title-21 mt-15">
-              <p class="font-cormorant hover-pink transition-color cursor">Gel Nail Polish</p>
-              <span class="font-cormorant">$95.00</span>
-            </div>
-          </div> -->
+
+            <div class="item post-img p-relative">
+              <img class="cursor" src="./assets/images/post7.jpg" alt="post7" />
+              <a
+                class="p-absolute bg-white center border-radius border"
+                href="#"
+                ><i class="fa-regular fa-heart title-20 center bg-white"></i
+              ></a>
+              <a
+                class="p-absolute bg-white center border-radius border"
+                href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping title-20 center bg-white"
+                ></i
+              ></a>
+              <div class="text title-21 mt-15">
+                <p class="font-cormorant hover-pink transition-color cursor">
+                  Gel Nail Polish
+                </p>
+                <span class="font-cormorant">$95.00</span>
+              </div>
+            </div> -->
         </div>
       </div>
     </section>
@@ -1474,7 +1508,7 @@
                 <li class="menu-item">
                   <a
                     class="hover-pink text-lightgray transition-color"
-                    href="./html/about.html"
+                    href="./assets/html/about.html"
                     >About Us</a
                   >
                 </li>
@@ -1486,7 +1520,9 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="./assets/html/services.html"
                     >Services</a
                   >
                 </li>
@@ -1632,6 +1668,13 @@
         </div>
       </div>
     </footer>
+    <!-- ✅ JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+    <!-- ✅ Owl Carousel JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+
+    <!-- <script src="./assets/js/carousel.js"></script> -->
     <script src="./assets/input.js"></script>
     <script src="./assets/js/login.js"></script>
     <script src="./assets/js/sign.js"></script>

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+.title-22 {
+  font-size: 22px;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.brend-name {
+  font-size: 90px;
+  color: palevioletred;
+  transition: color 1s ease;
+  transition: transform 1s ease;
+}
+.scale:hover {
+  transform: scale(1.1);
+  color: turquoise;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item .nav-link:hover {
+  color: #df97a2 !important;
+}
+#banner-one {
+  background-image: url(/assets/images/background-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner-one h1 {
+  font-size: 65px;
+  padding-top: 155px;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.font-cormorant {
+  font-family: "Cormorant Upright", serif;
+}
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+#banner-three {
+  background-color: whitesmoke;
+  height: 350vh !important;
+}
+#banner-three .boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  height: 50vh;
+  flex-wrap: wrap;
+}
+#banner-three .boxes .box {
+  width: 400px;
+  height: 85vh;
+}
+#banner-three .boxes .box img {
+  width: 360px;
+  height: 50vh;
+  margin-left: 20px;
+}
+#banner-three .box .text-1 {
+  text-align: left;
+  margin-left: 20px;
+}
+#banner-three .box .text-2 {
+  width: 85%;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+  color: #797878;
+}
+#banner-three .box .text-2 a {
+  color: #797878;
+  text-decoration: underline !important;
+  transition: color 0.5s ease;
+}
+#banner-three .box .text-2 a:hover {
+  color: #df97a2;
+}
