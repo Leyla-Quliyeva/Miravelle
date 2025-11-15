@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+.title-22 {
+  font-size: 22px;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.brend-name {
+  font-size: 90px;
+  color: palevioletred;
+  transition: color 1s ease;
+  transition: transform 1s ease;
+}
+.scale:hover {
+  transform: scale(1.1);
+  color: turquoise;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item .nav-link:hover {
+  color: #df97a2 !important;
+}
+#banner-one {
+  background-image: url(/assets/images/background-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner-one h1 {
+  font-size: 65px;
+  padding-top: 155px;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.font-cormorant {
+  font-family: "Cormorant Upright", serif;
+}
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+#banner-10 {
+  background-color: #fafafa;
+  height: 350vh !important;
+  padding-top: 210px;
+}
+#banner-10 .blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  height: 50vh;
+  flex-wrap: wrap;
+  margin-right: -155px;
+}
+#banner-10 .blogs .blog {
+  width: 420px;
+  height: 88vh;
+}
+#banner-10 .blogs .blog img {
+  width: 380px;
+  height: 50vh;
+}
+#banner-10 p {
+  width: 120%;
+}
+#banner-10 h4 {
+  width: 110%;
+}
+body {
+  overflow-x: hidden;
+}

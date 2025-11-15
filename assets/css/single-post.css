@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.font-cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+.title-22 {
+  font-size: 22px;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.brend-name {
+  font-size: 90px;
+  color: palevioletred;
+  transition: color 1s ease;
+  transition: transform 1s ease;
+}
+.scale:hover {
+  transform: scale(1.1);
+  color: turquoise;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item .nav-link:hover {
+  color: #df97a2 !important;
+}
+#banner-one {
+  background-image: url(/assets/images/background-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner-one h1 {
+  font-size: 65px;
+  padding-top: 155px;
+}
+.text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.font-cormorant {
+  font-family: "Cormorant Upright", serif;
+}
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+body {
+  overflow-x: hidden;
+}
+#banner-two .card-meta {
+  margin-left: 5px;
+  font-size: 18px;
+}
+#banner-two .card-meta a {
+  color: #575656;
+  transition: color 0.3s ease;
+}
+#banner-two .card-meta a:hover {
+  color: #df97a2;
+}
+#banner-two {
+  background-color: #fafafa;
+  height: 500vh !important;
+}
+.banner-two {
+  margin-top: -100px;
+}
+#banner-two .left {
+  position: relative;
+  top: -200px;
+}
+#banner-two h2 {
+  width: 95%;
+}
+#banner-two .box-left img {
+  height: 85vh;
+}
+#banner-two p {
+  margin-top: 30px;
+  width: 95%;
+}
+#banner-two h5 {
+  font-weight: bolder;
+  font-size: 18px;
+  width: 90%;
+  color: #7a7a7a;
+  margin-top: 45px;
+  line-height: 30px;
+}
+#banner-two #image img {
+  width: 300px;
+  height: 280px;
+  margin-top: -150px;
+}
+#banner-two #text {
+  margin-top: -10px;
+  font-size: 18px;
+}
+.line {
+  margin-top: 55px;
+  font-weight: bold;
+}
+.box2 .tags {
+  margin: 25px 15px;
+}
+.box2 .tags a {
+  color: #575656;
+  font-size: 20px;
+  font-weight: 300;
+  transition: color 0.3s ease;
+}
+.box2 .tags a:hover {
+  color: #df97a2;
+}
+.box2 {
+  height: 180px !important;
+}
+.box3 {
+  height: 510px !important;
+}
+.sidebar-post-item {
+  margin-left: 15px;
+}
+.post-meta span {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+.sidebar-post-content a {
+  font-size: 21px;
+  font-weight: 500;
+  color: #575656;
+}
+.sidebar-post-content a {
+  position: relative;
+  top: -45px;
+  transition: color 0.3s ease;
+}
+.sidebar-post-content a:hover {
+  color: #df97a2;
+}
+.post {
+  margin-top: -25px;
+}
+.post-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block-tag {
+  margin-top: 35px;
+}
+.block-tag a {
+  color: #575656;
+  font-size: 25px;
+  text-decoration: underline !important;
+  margin-left: 15px;
+}
+.social-links p {
+  font-size: 25px;
+}
+.social-links ul li {
+  margin: 30px 10px;
+}
+.social-links ul li a {
+  color: #df97a2;
+}
+.comments {
+  margin-top: 100px;
+}
+.comments h2 {
+  color: #575656;
+  font-size: 25px;
+}
+.comment-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.comment-item img {
+  border-radius: 50%;
+  height: 65px;
+}
+.comment-item h4 {
+  width: 100%;
+  padding-left: 15px;
+}
+.comment-item p {
+  position: relative;
+  left: -300px;
+  top: -10px;
+  font-size: 18px;
+}
+.comment-list .comment {
+  width: 80% !important ;
+  color: #7a7a7a;
+  font-size: 18px;
+  margin-left: 80px;
+  margin-top: -5px !important;
+}
+.comment-list span {
+  color: #7a7a7a;
+  font-size: 18px;
+  margin-left: 80px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.comment-list span:hover {
+  color: #df97a2;
+}
+#banner-three {
+  background-color: #fafafa;
+  margin-left: -200px;
+  /* margin-top: 150px; */
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ccc !important;
+}
+#banner-three h2 {
+  color: #535353;
+  letter-spacing: 1.5px;
+}
+#banner-three label {
+  margin-top: 15px;
+}
+#banner-three label span {
+  color: #7a7a7a;
+  font-size: 18px;
+}
+#banner-three .submit {
+  margin-top: 55px;
+}
+#banner-three .submit input {
+  background-color: #df97a2;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  height: 50px;
+  transition: background-color 0.3s ease-in;
+}
+#banner-three .submit input:hover {
+  background-color: palevioletred;
+}
+#banner-10 {
+  margin-top: -750px;
+}
