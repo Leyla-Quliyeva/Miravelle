@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Gel Nail Polish",
+      "price": "$150.00",
+      "image": "./"
+    },
+    {
+      "id": "2",
+      "name": "Natural Glow",
+      "price": "$95.00",
+      "image": "./"
+    },
+    {
+      "id": "3",
+      "name": "Blue Nail Paint",
+      "price": "$190.00",
+      "image": "./"
+    },
+    {
+      "id": "4",
+      "name": "Yellow Polish",
+      "price": "$260.00",
+      "image": "./"
+    }
+  ],
+
+  "team ": [
+    {
+      "id": "1",
+      "name": "Joe"
+    }
+  ]
+}

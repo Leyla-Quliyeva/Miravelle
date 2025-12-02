@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-        <link rel="stylesheet" href="/assets/css/project.css" />
+    <link rel="stylesheet" href="/assets/css/project.css" />
     <link rel="stylesheet" href="/assets/css/contact.css" />
     <link rel="icon" href="/assets/images/sparkles-svgrepo-com.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-       <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
@@ -52,6 +52,9 @@
     />
   </head>
   <body>
+      <div class="preloader p-fixed bg-white d-flex-center">
+      <img src="./assets/images/preloader.gif" alt="Yüklənir..." />
+    </div>
     <header class="font-cinzel title-22">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -88,7 +91,10 @@
                 >
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/about.html">
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/about.html"
+                    >
                       About Us</a
                     >
                   </li>
@@ -100,12 +106,16 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/team.html"
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/team.html"
                       >Team</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/price.html"
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/price.html"
                       >Price Plan</a
                     >
                   </li>
@@ -158,10 +168,16 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/services.html">Services</a>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/services.html"
+                      >Services</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="#"
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/services-details.html"
                       >Services-Details</a
                     >
                   </li>
@@ -179,14 +195,27 @@
                   Blog
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item title-20" href="#">Blog</a></li>
                   <li>
-                    <a class="dropdown-item title-20" href="#">Single-Post</a>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/blog.html"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/single-post.html"
+                      >Single-Post</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/assets/html/contact.html"
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/assets/html/contact.html"
                   >Contact</a
                 >
               </li>
@@ -283,6 +312,9 @@
                   </div>
                 </div>
               </form>
+              <form action="">
+                
+              </form>
               <div class="Phone">
                 <label class="font-jost" for="#">Phone Number</label>
                 <input type="number" placeholder="Phone Number" />
@@ -307,7 +339,7 @@
         </div>
       </div>
     </section>
- 
+
     <section id="banner-11" class="bg-1 bg-text">
       <div class="container">
         <div class="banner-11">
@@ -466,7 +498,7 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/services.html"
                     >Services</a
                   >
                 </li>
@@ -613,5 +645,10 @@
       </div>
     </footer>
     <script src="/assets/js/input.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
