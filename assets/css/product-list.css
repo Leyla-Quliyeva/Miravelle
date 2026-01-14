@@ -60,3 +60,35 @@
   font-family: "Jost", sans-serif;
   font-weight: 300;
 }
+.product {
+  margin-top: -100px;
+}
+.product a {
+  font-size: 25px;
+  color: #dd7b8a;
+}
+#basket {
+  margin-top: -420px;
+  background-color: #fafafa;
+  height: 150vh;
+}
+.basket thead tr th {
+  background-color: #fafafa;
+}
+#basket img {
+  width: 150px;
+}
+#basket h1 {
+  color: #dd7b8a;
+}
+.table {
+  font-size: 22px;
+}
+.table td,
+.table th {
+  background-color: transparent !important;
+}
+.product-title {
+  vertical-align: middle;
+  font-size: 25px;
+}

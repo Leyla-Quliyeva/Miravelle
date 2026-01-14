@@ -63,29 +63,46 @@
 .product {
   margin-top: -100px;
 }
-.product a{
-    font-size: 25px;
-    color: #dd7b8a;
-}
-#basket {
-  margin-top: -420px;
-  background-color: #fafafa;
-  height: 150vh;
-}
-.basket thead tr th {
-  background-color: #fafafa;
-}
-#basket img {
-  width: 150px;
-}
-.table td,
-.table th {
-  background-color: transparent !important;
-}
-.padding-tr td {
-  padding-top: 20px !important;
-}
-.product-title {
-  vertical-align: middle;
+.product a {
   font-size: 25px;
+  color: #dd7b8a;
+}
+#products {
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  height: 150vh;
+  background-color: #fafafa;
+}
+.products {
+  margin-top: -450px !important;
+}
+.product-card {
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.product-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem !important;
+}
+.product-card .card-title {
+  font-size: 1.5rem !important;
+  color: #2c3e50 !important;
+  font-weight: 600 !important;
+  font-family: "Cormorant Upright", serif !important;
+}
+.product-card .card-text {
+  font-size: 1.1rem !important;
+  color: #555 !important;
+  font-family: "Jost", sans-serif !important;
+}
+.product-card {
+  width: 22rem !important;
+}
+.product-card .card-img-top {
+  height: 300px !important;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
-    <link rel="stylesheet" href="/assets/css/shop.css" />
+    <link rel="stylesheet" href="/assets/css/product.css" />
     <link rel="stylesheet" href="/assets/css/project.css" />
     <link rel="icon" href="/assets/images/sparkles-svgrepo-com.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,9 +46,9 @@
     />
   </head>
   <body>
-    <!-- <div class="preloader p-fixed bg-white d-flex-center">
+    <div class="preloader p-fixed bg-white d-flex-center">
       <img src="/assets/images/preloader.gif" alt="Yüklənir..." />
-    </div> -->
+    </div>
     <header class="font-cinzel title-22">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -120,31 +120,12 @@
                       >Gallery</a
                     >
                   </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Shop
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item title-20" href="#"
-                      >Single-Product</a
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/product.html"
+                      >Shop</a
                     >
-                  </li>
-                  <li><a class="dropdown-item title-20" href="#">Cart</a></li>
-                  <li>
-                    <a class="dropdown-item title-20" href="#">Wishlist</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item title-20" href="#">Checkout</a>
                   </li>
                 </ul>
               </li>
@@ -214,6 +195,16 @@
                 >
               </li>
             </ul>
+            <div class="search-container">
+              <i class="search-icon search fa-solid fa-magnifying-glass"></i>
+              <input type="search" class="search-box" placeholder="Search" />
+            </div>
+
+            <form class="form align-items-center">
+              <a href="/assets/html/sign.html">
+                <i class="user fa-solid fa-user"></i>
+              </a>
+            </form>
           </div>
         </div>
       </nav>
@@ -228,7 +219,374 @@
       </div>
     </section>
 
+    <section id="banner-two">
+      <div class="container">
+        <div class="banner-two d-flex justify-content-center my-3">
+          <nav class="product">
+            <ul class="d-flex gap-4 list-unstyled">
+              <li>
+                <a class="font-cormorant" href="product.html">Products Lists</a>
+              </li>
+              <li>
+                <a
+                  href="product-list.html"
+                  class="font-cormorant d-flex align-items-center gap-1"
+                >
+                  Basket <i class="fa-solid fa-cart-shopping"></i
+                  ><span class="basket-count text-danger">0</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
 
-    
+    <section id="products">
+      <div class="container">
+        <div class="row products">
+          <!-- <div
+            class="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center"
+          >
+            <div class="card" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section id="banner-11" class="bg-1 bg-text">
+      <div class="container">
+        <div class="banner-11">
+          <h2 class="center font-cinzel title-50">Make An Appointment</h2>
+          <p class="center font-jost title-21 text-lightgray">
+            Call: 666 333 9999 or Fill in the form below
+          </p>
+          <form action="contact-form" id="userForm">
+            <div class="form-input mt-25 gap-20 d-flex-center">
+              <input
+                id="NameInput"
+                class="font-jost mt-50 form-element border-outline"
+                type="text"
+                placeholder="Write Your Name Here"
+              />
+              <input
+                id="EmailInput"
+                class="font-jost mt-50 form-element border-outline"
+                type="email"
+                placeholder="Write Your Email Here"
+              />
+            </div>
+
+            <div class="form-input mt-25 gap-20 d-flex-center">
+              <input
+                class="font-jost form-element border-outline"
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="-100"
+                max="100"
+                placeholder="Contact number"
+              />
+              <input
+                id="PeopleInput"
+                class="font-jost form-element border-outline"
+                type="number"
+                placeholder="No of People"
+              />
+            </div>
+
+            <div class="form-input mt-25 gap-20 d-flex-center">
+              <input
+                id="DateInput"
+                class="form-element border-outline"
+                type="date"
+                placeholder="date"
+              />
+              <input
+                id="TimeInput"
+                class="form-element border-outline"
+                type="time"
+                placeholder="time"
+              />
+            </div>
+
+            <div class="form-input mt-25 d-flex-center">
+              <textarea
+                id="TextInput"
+                class="font-jost title-18 form-element border-outline"
+                name="text"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="font-cinzel title-18 mt-50 btn-alt hover-bg-darkpink text-white bg-pink transition-bg border-outline"
+            >
+              Book Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="bg-light">
+      <div class="container">
+        <div class="footer d-between">
+          <div class="menu">
+            <div class="footer-menu">
+              <a class="brend-name me-100 font-great" href="/project.html"
+                >Miravelle</a
+              >
+              <p class="font-jost title-18 ml-100 text-lightgray">
+                Where elegance meets artistry. Thanks for choosing us. Let’s
+                make your next visit even more fabulous!
+              </p>
+              <div class="social-icon">
+                <ul style="list-style-type: none">
+                  <li class="social">
+                    <a class="me-100" href="#"
+                      ><i
+                        class="border-radius border center fa-brands fa-facebook-f text-lightpink border-pink border-radius"
+                      ></i
+                    ></a>
+                  </li>
+
+                  <li class="social">
+                    <a class="me-100" href="#"
+                      ><i
+                        class="border-radius border center fa-brands fa-twitter text-lightpink border-pink"
+                      ></i
+                    ></a>
+                  </li>
+
+                  <li class="social">
+                    <a class="me-100" href="#"
+                      ><i
+                        class="border-radius border center fa-brands fa-pinterest text-lightpink border-pink"
+                      ></i
+                    ></a>
+                  </li>
+
+                  <li class="social">
+                    <a class="me-100" href="#"
+                      ><i
+                        class="border-radius border center fa-brands fa-instagram text-lightpink border-pink"
+                      ></i
+                    ></a>
+                  </li>
+
+                  <li class="social">
+                    <a class="me-100" href="#"
+                      ><i
+                        class="border-radius border center fa-brands fa-youtube text-lightpink border-pink"
+                      ></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="footer-text font-jost title-18">
+              <h6 class="text font-cormorant">Quick Links</h6>
+              <ul style="list-style-type: none">
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/project.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/price.html"
+                    >Offer</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/services.html"
+                    >Services</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="footer-text title-18">
+              <h6 class="font-cormorant">Services</h6>
+              <ul style="list-style-type: none">
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/price.html"
+                    >Payments</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/product.html"
+                    >Shipping</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/product.html"
+                    >Product returns</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a class="hover-pink text-lightgray transition-color" href="#"
+                    >FAQs</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/product-list.html"
+                    >Checkout</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a class="hover-pink text-lightgray transition-color" href="#"
+                    >Other Issues</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="menu">
+            <div class="footer-text title-18">
+              <h6 class="font-cormorant">Help Center</h6>
+              <ul style="list-style-type: none">
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/price.html"
+                    >Payments</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/product.html"
+                    >Shipping</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/product.html"
+                    >Product returns</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a class="hover-pink text-lightgray transition-color" href="#"
+                    >FAQs</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/product-list.html"
+                    >Checkout</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a class="hover-pink text-lightgray transition-color" href="#"
+                    >Other Issues</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="menu">
+            <div class="footer-text title-18">
+              <h6 class="text-bottom font-cormorant">Contact Us</h6>
+              <ul style="list-style-type: none">
+                <li class="menu-item mr-100">
+                  <i class="fa-solid fa-clock mt-15 text-lightpink"></i>
+                  <a class="text-lightgray" href="#">8:00-18:00, Sat: Closed</a>
+                </li>
+                <li class="menu-item mr-100">
+                  <i class="fa-solid fa-location-dot mt-15 text-lightpink"></i>
+                  <a class="text-lightgray" href="#">Dallas, Texas</a>
+                </li>
+                <li class="menu-item mr-100">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="tel:888 333 9999"
+                  >
+                    <i
+                      class="fa-solid fa-phone-volume mt-15 text-lightpink"
+                    ></i>
+                    888 333 9999</a
+                  >
+                </li>
+                <li class="menu-item mr-100">
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="mailto:Youremail@Gmail.Com"
+                  >
+                    <i class="fa-solid fa-envelope mt-15 text-lightpink"></i>
+                    Youremail@Gmail.Com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="text-lightgray" />
+      <div class="bottom">
+        <div class="bottom-text">
+          <p class="center title-25 mt-30 font-great">
+            © 2025 Miravelle. Powered By Quliyeva Leyla
+          </p>
+          <div class="cart d-grid font-cormorant col-2 ps-5 p-fixed">
+            <button class="btn btn-primary" type="button">Get it Now</button>
+            <a class="text-white" href="/assets/html/product.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/input.js"></script>
+    <script src="/assets/js/product.js"></script>
   </body>
 </html>

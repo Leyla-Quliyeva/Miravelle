@@ -46,7 +46,7 @@
     />
   </head>
   <body>
-      <div class="preloader p-fixed bg-white d-flex-center">
+    <div class="preloader p-fixed bg-white d-flex-center">
       <img src="/assets/images/preloader.gif" alt="Yüklənir..." />
     </div>
     <header class="font-cinzel title-22">
@@ -85,7 +85,10 @@
                 >
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/about.html">
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/about.html"
+                    >
                       About Us</a
                     >
                   </li>
@@ -97,43 +100,32 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/team.html"
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/team.html"
                       >Team</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/price.html"
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/price.html"
                       >Price Plan</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/gallery.html">Gallery</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Shop
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item title-20" href="#"
-                      >Single-Product</a
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/gallery.html"
+                      >Gallery</a
                     >
                   </li>
-                  <li><a class="dropdown-item title-20" href="#">Cart</a></li>
                   <li>
-                    <a class="dropdown-item title-20" href="#">Wishlist</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item title-20" href="#">Checkout</a>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/product.html"
+                      >Shop</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -151,10 +143,16 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/services.html">Services</a>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/services.html"
+                      >Services</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/services-details.html"
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/services-details.html"
                       >Services-Details</a
                     >
                   </li>
@@ -172,16 +170,41 @@
                   Blog
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item title-20" href="/assets/html/blog.html">Blog</a></li>
                   <li>
-                    <a class="dropdown-item title-20" href="/assets/html/single-post.html">Single-Post</a>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/blog.html"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item title-20"
+                      href="/assets/html/single-post.html"
+                      >Single-Post</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/assets/html/contact.html">Contact</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/assets/html/contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
+            <div class="search-container">
+              <i class="search-icon search fa-solid fa-magnifying-glass"></i>
+              <input type="search" class="search-box" placeholder="Search" />
+            </div>
+
+            <form class="form align-items-center">
+              <a href="/assets/html/sign.html">
+                <i class="user fa-solid fa-user"></i>
+              </a>
+            </form>
           </div>
         </div>
       </nav>
@@ -443,17 +466,23 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/price.html"
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/price.html"
                     >Offer</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/services.html"
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/services.html"
                     >Services</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/contact.html"
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/contact.html"
                     >Contact Us</a
                   >
                 </li>
@@ -465,17 +494,19 @@
               <h6 class="font-cormorant">Services</h6>
               <ul style="list-style-type: none">
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/price.html"
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/price.html"
                     >Payments</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
                     >Shipping</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
                     >Product returns</a
                   >
                 </li>
@@ -485,7 +516,7 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product-list.html"
                     >Checkout</a
                   >
                 </li>
@@ -503,17 +534,19 @@
               <h6 class="font-cormorant">Help Center</h6>
               <ul style="list-style-type: none">
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/price.html"
+                  <a
+                    class="hover-pink text-lightgray transition-color"
+                    href="/assets/html/price.html"
                     >Payments</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
                     >Shipping</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
                     >Product returns</a
                   >
                 </li>
@@ -523,7 +556,7 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="#"
+                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product-list.html"
                     >Checkout</a
                   >
                 </li>
@@ -581,7 +614,7 @@
           </p>
           <div class="cart d-grid font-cormorant col-2 ps-5 p-fixed">
             <button class="btn btn-primary" type="button">Get it Now</button>
-            <a class="text-white" href="/assets/html/price.html"
+            <a class="text-white" href="/assets/html/product.html"
               ><i class="fa-solid fa-cart-shopping"></i
             ></a>
           </div>
