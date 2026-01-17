@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   console.log("Basket səhifəsi yükləndi");
 
-  // Məhsul məlumatları - SİZİN İSTƏDİYİNİZ KİMİ
+  // Məhsul məlumatları
   const products = [
     {
       id: 1,
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <i class="fas fa-shopping-cart fa-3x text-muted mb-3"></i>
                             <h4 class="font-cormorant">Your basket is empty</h4>
                             <p class="text-muted font-jost">Add some products to your basket</p>
-                            <a href="product-list.html" class="btn btn-dark mt-3">
+                            <a href="product.html" class="btn btn-dark mt-3">
                                 <i class="fas fa-shopping-bag"></i> Continue Shopping
                             </a>
                         </div>
