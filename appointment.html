@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team</title>
-    <link rel="stylesheet" href="/assets/css/pages/team.css" />
+    <title>Appointment</title>
+    <link rel="stylesheet" href="/assets/css/pages/appointment.css" />
     <link rel="stylesheet" href="/assets/css/project.css" />
     <link rel="icon" href="/assets/images/sparkles-svgrepo-com.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,7 +46,7 @@
     />
   </head>
   <body>
-    <div class="preloader p-fixed bg-white d-flex-center">
+      <div class="preloader p-fixed bg-white d-flex-center">
       <img src="/assets/images/preloader.gif" alt="Yüklənir..." />
     </div>
     <header class="font-cinzel title-22">
@@ -87,42 +87,42 @@
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/about.html"
+                      href="/about.html"
                       >About Us</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/appointment.html"
+                      href="/appointment.html"
                       >Appointment</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/team.html"
+                      href="/team.html"
                       >Team</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/price.html"
+                      href="/price.html"
                       >Price Plan</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/gallery.html"
+                      href="/gallery.html"
                       >Gallery</a
                     >
                   </li>
-                  <li>
+                    <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/product.html"
+                      href="/product.html"
                       >Shop</a
                     >
                   </li>
@@ -144,14 +144,14 @@
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/services.html"
+                      href="/services.html"
                       >Services</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/services-details.html"
+                      href="/services-details.html"
                       >Services-Details</a
                     >
                   </li>
@@ -172,14 +172,14 @@
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/blog.html"
+                      href="/blog.html"
                       >Blog</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item title-20"
-                      href="/assets/html/single-post.html"
+                      href="/single-post.html"
                       >Single-Post</a
                     >
                   </li>
@@ -189,18 +189,18 @@
                 <a
                   class="nav-link"
                   aria-current="page"
-                  href="/assets/html/contact.html"
+                  href="/contact.html"
                   >Contact</a
                 >
               </li>
             </ul>
-            <div class="search-container">
+                <div class="search-container">
               <i class="search-icon search fa-solid fa-magnifying-glass"></i>
               <input type="search" class="search-box" placeholder="Search" />
             </div>
 
             <form class="form align-items-center">
-              <a href="/assets/html/sign.html">
+              <a href="/sign.html">
                 <i class="user fa-solid fa-user"></i>
               </a>
             </form>
@@ -212,8 +212,8 @@
     <section id="banner-one">
       <div class="container">
         <div class="banner-one">
-          <h1 class="text font-cormorant">Our Team</h1>
-          <p class="text font-cormorant">Home / Pages / Team</p>
+          <h1 class="text font-cormorant">Appointment</h1>
+          <p class="text font-cormorant">Home / Pages / Appointment</p>
         </div>
       </div>
     </section>
@@ -221,348 +221,251 @@
     <section id="banner-two">
       <div class="container">
         <div class="banner-two">
-          <h1 class="font-cormorant">Our Team Members</h1>
-          <div class="team gap-25 d-between cursor">
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team1.jpg" alt="team1" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
+          <div class="box-left">
+            <img src="/assets/images/about-img.jpg" alt="about" />
+          </div>
+          <div class="box-right">
+            <h2 class="center font-cinzel title-50">Make An Appointment</h2>
+            <p class="center font-jost title-21 text-lightgray">
+              Call: 666 333 9999 or Fill in the form below
+            </p>
+            <form action="contact-form" id="userForm">
+              <div class="form-input mt-25 gap-20 d-flex-center">
+                <input
+                  id="NameInput"
+                  class="font-jost mt-50 form-element border-outline"
+                  type="text"
+                  placeholder="Write Your Name Here"
+                />
+                <input
+                  id="EmailInput"
+                  class="font-jost mt-50 form-element border-outline"
+                  type="email"
+                  placeholder="Write Your Email Here"
+                />
+              </div>
+
+              <div class="form-input mt-25 gap-20 d-flex-center">
+                <input
+                  class="font-jost form-element border-outline"
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  min="-100"
+                  max="100"
+                  placeholder="Contact number"
+                />
+                <input
+                  id="PeopleInput"
+                  class="font-jost form-element border-outline"
+                  type="number"
+                  placeholder="No of People"
+                />
+              </div>
+
+              <div class="form-input mt-25 gap-20 d-flex-center">
+                <input
+                  id="DateInput"
+                  class="form-element border-outline"
+                  type="date"
+                  placeholder="date"
+                />
+                <input
+                  id="TimeInput"
+                  class="form-element border-outline"
+                  type="time"
+                  placeholder="time"
+                />
+              </div>
+
+              <div class="form-input mt-25 d-flex-center">
+                <textarea
+                  id="TextInput"
+                  class="font-jost title-18 form-element border-outline"
+                  name="text"
+                  placeholder="Your message"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="font-cinzel title-18 mt-50 btn-alt hover-bg-darkpink text-white bg-pink transition-bg border-outline"
               >
-                Genna Fisher
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Owner and Director
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team2.jpg" alt="team2" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Rebeca Saturn
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Assistant Director
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team3.jpg" alt="team3" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Ester Ian
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Nail Artist
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team4.jpg" alt="team4" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Alex Smith
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Manicure Expert
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team5.jpg" alt="team5" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Allena Will
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Pedicure Expert
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team6.jpg" alt="team6" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Milly Taylor
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Senior Nail Artist
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team1.jpg" alt="team1" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Genna Fisher
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Owner and Director
-              </p>
-            </div>
-            <div class="team-img center p-relative">
-              <img src="/assets/images/team2.jpg" alt="team2" />
-              <ul class="social_media p-absolute" style="list-style-type: none">
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram title-25 text-white"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin title-25 text-white"></i
-                  ></a>
-                </li>
-              </ul>
-              <p
-                class="mt-15 font-cormorant title-25 hover-pink transition-color"
-              >
-                Rebeca Saturn
-              </p>
-              <p class="mini-text font-cormorant title-21 text-gray">
-                Assistant Director
-              </p>
-            </div>
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="banner-11" class="bg-1 bg-text">
+    <section id="banner-six" class="mt-200">
       <div class="container">
-        <div class="banner-11">
-          <h2 class="center font-cinzel title-50">Make An Appointment</h2>
-          <p class="center font-jost title-21 text-lightgray">
-            Call: 666 333 9999 or Fill in the form below
-          </p>
-          <form action="contact-form" id="userForm">
-            <div class="form-input mt-25 gap-20 d-flex-center">
-              <input
-                id="NameInput"
-                class="font-jost mt-50 form-element border-outline"
-                type="text"
-                placeholder="Write Your Name Here"
-              />
-              <input
-                id="EmailInput"
-                class="font-jost mt-50 form-element border-outline"
-                type="email"
-                placeholder="Write Your Email Here"
-              />
-            </div>
-
-            <div class="form-input mt-25 gap-20 d-flex-center">
-              <input
-                class="font-jost form-element border-outline"
-                type="number"
-                id="quantity"
-                name="quantity"
-                min="-100"
-                max="100"
-                placeholder="Contact number"
-              />
-              <input
-                id="PeopleInput"
-                class="font-jost form-element border-outline"
-                type="number"
-                placeholder="No of People"
-              />
-            </div>
-
-            <div class="form-input mt-25 gap-20 d-flex-center">
-              <input
-                id="DateInput"
-                class="form-element border-outline"
-                type="date"
-                placeholder="date"
-              />
-              <input
-                id="TimeInput"
-                class="form-element border-outline"
-                type="time"
-                placeholder="time"
-              />
-            </div>
-
-            <div class="form-input mt-25 d-flex-center">
-              <textarea
-                id="TextInput"
-                class="font-jost title-18 form-element border-outline"
-                name="text"
-                placeholder="Your message"
-              ></textarea>
-            </div>
+        <div class="banner-six mr-105 gap-20 d-flex">
+          <p class="font-cormorant ml-100">Popular Products</p>
+          <a href="/product.html">
             <button
-              type="submit"
-              class="font-cinzel title-18 mt-50 btn-alt hover-bg-darkpink text-white bg-pink transition-bg border-outline"
+              class="font-cinzel title-18 btn-alt hover-bg-darkpink text-white bg-pink transition-bg border-outline"
             >
-              Book Now
-            </button>
-          </form>
+              VIEW ALL
+            </button></a
+          >
+        </div>
+        <div class="post mt-50 gap-25 me-100">
+          <div class="post-img p-relative">
+            <img class="cursor" src="/assets/images/post1.jpg" alt="post1" />
+            <a class="p-absolute bg-white center border-radius border" href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white center border-radius border" href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+            <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">
+                Gel Nail Polish
+              </p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div>
+          <div class="post-img p-relative">
+            <img class="cursor" src="/assets/images/item-7.jpg" alt="post2" />
+            <a class="p-absolute bg-white center border-radius border" href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white center border-radius border" href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+            <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">
+                Gel Nail Polish
+              </p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div>
+          <div class="post-img p-relative">
+            <img class="cursor" src="/assets/images/post3.jpg" alt="post3" />
+            <a class="p-absolute bg-white center border-radius border" href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white center border-radius border" href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+            <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">
+                Gel Nail Polish
+              </p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div>
+          <div class="post-img p-relative">
+            <img class="cursor" src="/assets/images/post4.jpg" alt="post4" />
+            <a class="p-absolute bg-white center border-radius border" href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white center border-radius border" href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+            <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">
+                Gel Nail Polish
+              </p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div>
+          <div class="post-img p-relative">
+            <img class="cursor" src="/assets/images/post5.jpg" alt="post5" />
+            <a class="p-absolute bg-white center border-radius border" href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white center border-radius border" href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+            <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">
+                Gel Nail Polish
+              </p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div>
+          <!-- <div class="post-img p-relative">
+             <img class="cursor" src="/assets/images/post6.jpg" alt="post6">
+             <a class="p-absolute bg-white  center border-radius border"  href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white  center border-radius border"  href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+             <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">Gel Nail Polish</p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div>
+          <div class="post-img p-relative">
+             <img class="cursor"  src="/assets/images/post7.jpg" alt="post7">
+             <a class="p-absolute bg-white  center border-radius border"  href="#"
+              ><i class="fa-regular fa-heart title-20 center bg-white"></i
+            ></a>
+            <a class="p-absolute bg-white  center border-radius border"  href="/product.html"
+              ><i class="fa-solid fa-cart-shopping title-20 center bg-white"></i
+            ></a>
+             <div class="text title-21 mt-15">
+              <p class="font-cormorant hover-pink transition-color cursor">Gel Nail Polish</p>
+              <span class="font-cormorant">$95.00</span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="banner-nine" class="mt-30 bg-text">
+      <div class="container">
+        <div class="banner-nine bg-white p-relative">
+          <div class="box">
+            <div class="reviewer d-flex-center">
+              <img
+                class="border-radius"
+                src="/assets/images/reviewer3.jpg"
+                alt="reviewer3"
+              />
+              <div class="reviewer-text">
+                <p class="font-cormorant title-22 mt-50 text-lightgray">
+                  “Pretium turpis faucibus adipiscing duis. Id quis tristique mi
+                  vitae nec. In et in praesent pellentesque. Porta sit porta
+                  ridiculus faucibus. Curabitur lacus pretium pellentesque
+                  interdum urna blandit.”
+                </p>
+                <h2 class="font-cormorant text-darkgray">Jenny Will</h2>
+                <p class="font-cormorant title-22 text-lightgray">Hanay mom</p>
+              </div>
+            </div>
+
+            <!-- <div class="reviewer d-flex-center">
+              <img class="border-radius" src="/assets/images/reviewer1.jpg" alt="reviewer3" />
+              <div class="reviewer-text">
+                <p class="font-cormorant title-22 mt-50 text-lightgray">
+                  “Pretium turpis faucibus adipiscing duis. Id quis tristique mi
+                  vitae nec. In et in praesent pellentesque. Porta sit porta
+                  ridiculus faucibus. Curabitur lacus pretium pellentesque
+                  interdum urna blandit.”
+                </p>
+                <h2 class="font-cormorant text-darkgray">Emily Smith</h2>
+                <p class="font-cormorant title-22 text-lightgray">Serene mom</p>
+              </div>
+            </div> -->
+
+            <!-- <div class="reviewer d-flex-center">
+              <img class="border-radius" src="/assets/images/reviewer2.jpg" alt="reviewer3" />
+              <div class="reviewer-text">
+                <p class="font-cormorant title-22 mt-50 text-lightgray">
+                  “Pretium turpis faucibus adipiscing duis. Id quis tristique mi
+                  vitae nec. In et in praesent pellentesque. Porta sit porta
+                  ridiculus faucibus. Curabitur lacus pretium pellentesque
+                  interdum urna blandit.”
+                </p>
+                <h2 class="font-cormorant text-darkgray">Noran Shara</h2>
+                <p class="font-cormorant title-22 text-lightgray">Sam mom</p>
+              </div>
+            </div> -->
+          </div>
         </div>
       </div>
     </section>
@@ -638,28 +541,26 @@
                 <li class="menu-item">
                   <a
                     class="hover-pink text-lightgray transition-color"
-                    href="/assets/html/about.html"
+                    href="/about.html"
                     >About Us</a
                   >
                 </li>
                 <li class="menu-item">
                   <a
                     class="hover-pink text-lightgray transition-color"
-                    href="/assets/html/price.html"
+                    href="/price.html"
                     >Offer</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a
-                    class="hover-pink text-lightgray transition-color"
-                    href="/assets/html/services.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/services.html"
                     >Services</a
                   >
                 </li>
                 <li class="menu-item">
                   <a
                     class="hover-pink text-lightgray transition-color"
-                    href="/assets/html/contact.html"
+                    href="/contact.html"
                     >Contact Us</a
                   >
                 </li>
@@ -673,17 +574,17 @@
                 <li class="menu-item">
                   <a
                     class="hover-pink text-lightgray transition-color"
-                    href="/assets/html/price.html"
+                    href="/price.html"
                     >Payments</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/product.html"
                     >Shipping</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/product.html"
                     >Product returns</a
                   >
                 </li>
@@ -693,7 +594,7 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product-list.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/product-list.html"
                     >Checkout</a
                   >
                 </li>
@@ -713,17 +614,17 @@
                 <li class="menu-item">
                   <a
                     class="hover-pink text-lightgray transition-color"
-                    href="/assets/html/price.html"
+                    href="/price.html"
                     >Payments</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/product.html"
                     >Shipping</a
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/product.html"
                     >Product returns</a
                   >
                 </li>
@@ -733,7 +634,7 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a class="hover-pink text-lightgray transition-color" href="/assets/html/product-list.html"
+                  <a class="hover-pink text-lightgray transition-color" href="/product-list.html"
                     >Checkout</a
                   >
                 </li>
